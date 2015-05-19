@@ -37,9 +37,13 @@ public class AgeCalculator {
         int newAge = currentAge + yearsToAdd;
 
         //Finally, display the user's age in this year, but only if it's valid.
-        if (newAge >= 0){
+        if (newAge >= 0) {
             System.out.println("You will be " + newAge + "-years-old in "
-                + anotherYear + ".");}
-                else {
-                    System.out.println("Invalid age, Please try agian");
+                + anotherYear + ".");
+	}
+        else {
+		System.out.println("Invalid age, Please try agian");
+	}
+    }
+}
                 
